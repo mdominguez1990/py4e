@@ -1,0 +1,12 @@
+hrs = input("Enter Hours:")
+h = float(hrs)
+
+rte = input("Enter Rate:")
+r = float(rte)
+
+if h > 40:
+    total = (h - 40) * (r * 1.5) + (40 * r)
+else:
+    total = h * r
+print(total)
+        
